@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_greenery_promos
+    description:  promos
+    columns:
+      - name: promo_guid
+        tests:
+          - unique
+          - not_null

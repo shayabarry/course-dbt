@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_greenery_events
+    description: events 
+    columns:
+      - name: event_guid
+        tests:
+          - unique
+          - not_null

@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_greenery_users
+    description: users 
+    columns:
+      - name: user_guid
+        tests:
+          - unique
+          - not_null
