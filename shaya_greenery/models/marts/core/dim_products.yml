@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: dim_products
+    description: ""
+    columns:
+      - name: product_guid
+        description: ""
+
+      - name: name
+        description: ""
+
+      - name: price
+        description: ""
+
+      - name: inventory
+        description: ""
+
+      - name: total_product_quantity
+        description: ""
+
+      - name: max_product_delivered_at
+        description: ""
+
+      - name: total_product_revenue
+        description: ""
+
+      - name: total_product_profit
+        description: ""
+

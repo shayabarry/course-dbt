@@ -14,6 +14,7 @@ with orders_source as (
     order_id as order_guid
     , user_id as user_guid
     , order_cost
+    , address_id as address_guid
     , shipping_cost
     , order_total as order_total_cost
     , status as order_status
