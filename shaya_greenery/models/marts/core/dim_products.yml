@@ -6,6 +6,9 @@ models:
     columns:
       - name: product_guid
         description: ""
+        test:
+         - unique
+         - not_null
 
       - name: name
         description: ""
@@ -15,6 +18,8 @@ models:
 
       - name: inventory
         description: ""
+        test:
+         - positive_values
 
       - name: total_product_quantity
         description: ""
